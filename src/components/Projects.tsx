@@ -61,7 +61,10 @@ export default function Projects() {
                 </p>
                 <div className="mt-auto flex items-center justify-between">
                   <div className="flex items-center gap-4">
-                    <a href={project.githubLink} target="_blank" className="text-slate-400 hover:text-white transition-colors">
+                    <a href={project.frontEndGithub} target="_blank" className="text-slate-400 hover:text-white transition-colors">
+                      <Github size={20} />
+                    </a>
+                    <a href={project.serverGithub} target="_blank" className="text-slate-400 hover:text-white transition-colors">
                       <Github size={20} />
                     </a>
                     <a href={project.liveLink} target="_blank" className="text-slate-400 hover:text-white transition-colors">
@@ -152,13 +155,13 @@ export default function Projects() {
                       >
                         Live Demo <ExternalLink size={18} />
                       </a>
-                      <a
+                      {/* <a
                         href={selectedProject.githubLink}
                         target="_blank"
                         className="flex-1 py-4 bg-slate-800 hover:bg-slate-700 text-center rounded-xl font-bold border border-slate-700 transition-all flex items-center justify-center gap-2"
                       >
                         View Code <Github size={18} />
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>

@@ -7,9 +7,21 @@ import { toast } from "react-toastify";
 
 export default function Hero() {
 
-  const resume = async()=>{
-     toast.error("Resume not available now");
-  }
+  const resume = () => {
+    const fileUrl = "Mehedi_Resume.pdf";
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.setAttribute("download", "Mehedi_Hasan_Resume_Full-stack_dev.pdf"); 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    toast.success("Resume download started!", {
+      position: "top-center",
+      autoClose: 3000,
+    });
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       {/* Background Glow */}
@@ -80,10 +92,9 @@ export default function Hero() {
             
             <div className="w-full h-full bg-slate-800 rounded-3xl overflow-hidden border border-slate-700 shadow-2xl relative group">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-              {/* Placeholder for Photo */}
               <div className="w-full h-full flex items-center justify-center text-slate-600 bg-slate-900/50">
                  <img 
-                    src="https://i.ibb.co.com/mCWwQxTB/454427824-1153545199092809-4017632002271052958-n.jpg" 
+                    src="mehedi.png" 
                     alt="Mehedi Hasan"
                     className="w-full h-full object-cover"
                  />

@@ -1,10 +1,10 @@
 export const personalData = {
-  name: "Mehedi Hasan",
+  logo: "mehedi.png",
   designation: "Full Stack Web Developer (PERN/MERN Stack)",
   socials: {
-    github: "https://github.com/TwistMehedi",
-    linkedin: "https://www.linkedin.com/in/twist-mehedi-243a72231", // Placeholder
-    facebook: "https://www.facebook.com/twist.crak", // Placeholder
+    github: "https://github.com/themehedix",
+    linkedin: "https://www.linkedin.com/in/themehedix", // Placeholder
+    facebook: "https://www.facebook.com/themehedixdev", // Placeholder
   },
   contact: {
     email: "ataul1708@gmail.com", // Placeholder
@@ -55,8 +55,11 @@ export const personalData = {
         "Better-Auth",
         "Tailwind CSS",
       ],
+
       liveLink: "https://client-sandy-kappa.vercel.app",
-      githubLink: "https://github.com/TwistMehedi/asiggment-4-frontend",
+      frontEndGithub: "https://github.com/TwistMehedi/asiggment-4-frontend",
+      serverGithub:
+        "https://github.com/themehedix/foodHub-backend",
       challenges:
         "Implementing real-time order tracking and managing complex state across multiple user roles (Customer, Restaurant, Delivery).",
       futurePlans:
@@ -79,8 +82,10 @@ export const personalData = {
         "Tailwind CSS",
       ],
       liveLink: "https://movie-portal-client-ruddy.vercel.app",
-      githubLink:
+      frontEndGithub:
         "https://github.com/TwistMehedi/assigment-5-frontend-p-hero-l2",
+      serverGithub:
+        "https://github.com/themehedix/assigment-5-backend-p-hero-l2",
       challenges:
         "Integrating multiple third-party APIs for movie data and ensuring fast load times while handling large datasets.",
       futurePlans:
@@ -105,7 +110,7 @@ export const personalData = {
         "jwt",
       ],
       liveLink: "",
-      githubLink: "",
+      frontEndGithub: "",
       challenges:
         "Handling network latency and ensuring stable peer connections across different network environments.",
       futurePlans:
