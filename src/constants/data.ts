@@ -1,4 +1,5 @@
 export const personalData = {
+  name: "Mehedi Hasan",
   logo: "mehedi.png",
   designation: "Full Stack Web Developer (PERN/MERN Stack)",
   socials: {
