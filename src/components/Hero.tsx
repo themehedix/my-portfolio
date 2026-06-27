@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 export default function Hero() {
 
   const resume = () => {
-    const fileUrl = "Mehedi_Resume.pdf";
+    const fileUrl = "Mehedi Hasan Resume (2).pdf";
     const link = document.createElement("a");
     link.href = fileUrl;
     link.setAttribute("download", "Mehedi_Hasan_Resume_Full-stack_dev.pdf"); 
